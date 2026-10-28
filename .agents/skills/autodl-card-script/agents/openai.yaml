@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoDL 抢卡脚本"
+  short_description: "安装、配置和维护 AutoDL 抢卡脚本，按折后价格范围筛选 GPU 并设置通知"
+  default_prompt: "使用 $autodl-card-script 帮我配置 AutoDL 抢卡条件和系统桌面通知。"

@@ -1,0 +1,12 @@
+{
+  "name": "autodl-gpu-catcher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AutoDL 抢卡脚本：GPU 监控、自动开机与按量创建",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check autodl-helper.user.js && node --check scripts/build-install-page.cjs",
+    "build:install": "node scripts/build-install-page.cjs",
+    "test:browser": "node tests/browser-smoke.cjs"
+  }
+}
